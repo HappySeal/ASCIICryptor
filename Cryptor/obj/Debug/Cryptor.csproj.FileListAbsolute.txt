@@ -1,0 +1,13 @@
+D:\Cryptor\Cryptor\bin\Debug\Cryptor.exe.config
+D:\Cryptor\Cryptor\obj\Debug\Cryptor.csprojResolveAssemblyReference.cache
+D:\Cryptor\Cryptor\obj\Debug\Cryptor.Form1.resources
+D:\Cryptor\Cryptor\obj\Debug\Cryptor.Properties.Resources.resources
+D:\Cryptor\Cryptor\obj\Debug\Cryptor.csproj.GenerateResource.Cache
+D:\Cryptor\Cryptor\bin\Debug\Cryptor.exe
+D:\Cryptor\Cryptor\bin\Debug\Cryptor.pdb
+D:\Cryptor\Cryptor\obj\Debug\Cryptor.exe
+D:\Cryptor\Cryptor\obj\Debug\Cryptor.pdb
+D:\Cryptor\Cryptor\bin\Debug\Cryptor.exe.manifest
+D:\Cryptor\Cryptor\bin\Debug\Cryptor.application
+D:\Cryptor\Cryptor\obj\Debug\Cryptor.exe.manifest
+D:\Cryptor\Cryptor\obj\Debug\Cryptor.application

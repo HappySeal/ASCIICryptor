@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Cryptor.exe" version="1.0.0.0" publicKeyToken="8eea6790c4b8d648" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Cryptor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Cryptor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Cryptor.exe" size="56832">
+      <assemblyIdentity name="Cryptor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yjmf5kuqGuiyjZML9MHg0uqISVEz+Vte88Dys4+yOEE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Cryptor.exe.config" size="169">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9RTds+/Kv6xsegXNQu2/WM5LJvjNJkq7my4gyzbkmcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="favicon.ico" size="22781">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>utUvOopavUTrhcJG1lgNAQM/fbqFmC4FNw/Hb2cmlZw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Alev-TOSH\Alev" issuerKeyHash="16abdc0348b45ae54ac9f9a249d432c55c97d37a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>aeJLrJDyhnoIfM5pwNCcHFELa4Jrgm4RVQfe+YVuZzg=</DigestValue></Reference></SignedInfo><SignatureValue>ZbNzPxSSgySDpnDX7Mwecb6d31RhTFHIchTyVKPvI2JEYzODYzB4OZa0bCDF5kYm2m6tBzXF9NvY7khyAYgo3P1vFY50iZaDULdS4REMRJJ3ElIENnEBqH/0scPbUfuZaJ8QtZjl7RQ1N4rmV9VUGR7G/xW1Dq3UEvfI6xY0njs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>/wzTjBrrfDJ843MdjEDcNYT0mt+NqHmjnu+h12IXKU2C01jBWLmdQsq+W9xC3iAhGa10kbd+KvBYQjb5Q14MPMDrFEzzZdV2SRlUJDAB0H/qCr4bWo3GOclxtiTNCvMvXSxX4zRGgZ5GlAhUUeG1S7DG91tCMze4jG+pzDE/DgM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="38676e85f9de0755116e826b826b0b511c9cd0c069ce7c087a86f290ac4be269" Description="" Url=""><as:assemblyIdentity name="Cryptor.exe" version="1.0.0.0" publicKeyToken="8eea6790c4b8d648" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Alev-TOSH\Alev</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SvGoDppkA8WoBMhmedkTToKBfnPlLR8Mm7UK7DLEFKg=</DigestValue></Reference></SignedInfo><SignatureValue>JN0F3u31xsGaqWAdd4ZA4WcAKI3uE5tuh2A2cqbp2QsRCzua8dZADaQ0pyTfPxEYHeH7QiyDGiRAt6E11m8gbtVpFw05fKCvGAPLsnSOX7gb88pwXMPL5Q9rISgqHOGMdZ6CtEHFVuCrLjy31vg7Ku8c1iCgyvtrZcIaeuUV2VU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>/wzTjBrrfDJ843MdjEDcNYT0mt+NqHmjnu+h12IXKU2C01jBWLmdQsq+W9xC3iAhGa10kbd+KvBYQjb5Q14MPMDrFEzzZdV2SRlUJDAB0H/qCr4bWo3GOclxtiTNCvMvXSxX4zRGgZ5GlAhUUeG1S7DG91tCMze4jG+pzDE/DgM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQEam1U56krolI3Y0+SjQvNzANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQQBsAGUAdgAtAFQATwBTAEgAXABBAGwAZQB2MB4XDTE3MTEyMTE3NTIxOVoXDTE4MTEyMTIzNTIxOVowJzElMCMGA1UEAx4cAEEAbABlAHYALQBUAE8AUwBIAFwAQQBsAGUAdjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA/wzTjBrrfDJ843MdjEDcNYT0mt+NqHmjnu+h12IXKU2C01jBWLmdQsq+W9xC3iAhGa10kbd+KvBYQjb5Q14MPMDrFEzzZdV2SRlUJDAB0H/qCr4bWo3GOclxtiTNCvMvXSxX4zRGgZ5GlAhUUeG1S7DG91tCMze4jG+pzDE/DgMCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAqIiqLUsP7mj3u2jV9/kj0MghIZMiIOAIvWrsJDrbm3aMurJNMQgNVOIPLySkjwdcH49ZoG6qjGhAJTP75F5fm3P552u8bUdFFtUYMiIQNNZ/b36hdX+BJ/2oCBcjBmAFghMIFVdIPCNBRtHxegMBcHS5zNggbM5OwMFCkX/ZPcQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
